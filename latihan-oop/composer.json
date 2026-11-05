@@ -1,0 +1,14 @@
+{
+  "name": "tim/latihan-oop",
+  "description": "Latihan OOP & autoloading PSR-4",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=8.0"
+  }
+}
